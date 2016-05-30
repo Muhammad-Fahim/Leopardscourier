@@ -1,0 +1,194 @@
+body{
+    background-image: url(images/bg.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+#header{
+    background-color: rgba(3, 21, 21, 0.6);
+    width: 863px;
+    height: 193px;
+    margin: 0% 17.6% 0% 17.6%;
+}
+#logo{
+    width: 160px;
+    height: 95px;
+    float: left;
+    margin-top: 96px;
+    text-align: center;
+}
+#toptext{
+    padding-top: 10px;
+    width: 350px;
+    height: 95px;
+    margin: 25px 0px 0px 260px;
+    text-align: center;
+}
+#phone{
+    padding-top: 5px;
+    float: left;
+}
+#uan{
+    color: white;
+    font-size: 38px;
+}
+#providingservices{
+    color: white;
+    font-size: 22px;
+}
+#facebook a img{
+    float: right;
+    padding-top: 43px;
+}
+#facebook a img:hover{
+    opacity: .6;
+}
+#menu-left{
+    width: 235px;
+    float: left;    
+    padding: 0%;
+    margin: 0%;
+}
+#menu-left ul{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+#menu-left ul li{
+    background-image: url(images/bg-yellownav.png);
+    height: 40px;
+    width: 200px;
+    list-style-type: none;
+    line-height:40px;
+    margin: 10px 0px 0px 0px;
+    float: left;
+    border-radius: 0px 25px 25px 0px;
+}
+#menu-left a{
+    margin: 0px 0px 0px 10px; 
+    color: black;
+    text-decoration: none;
+}
+#menu-left ul ul{
+    position: relative;
+    visibility: hidden;
+}
+#menu-left ul li:hover ul{
+    visibility: visible;
+}
+#menu-left ul li:hover{
+    text-shadow: 1px 1px 10px brown;
+}
+#track{
+    color: white;
+    background-color: rgba(3, 21, 21, 0.6);
+    margin: 15px 0px 0px 0px;
+    width: 220px;
+    height: 280px;
+    float: left;
+    text-align: center;
+    border-radius: 0px 45px 0px 0px;
+}
+#track p{
+    font-size: 15px;
+}
+#menu-center{
+    width: 863px;
+    height: 1500px;
+    float: left;
+}
+#services li{
+    list-style-type: none;
+}
+#services li a img{
+    width: 220px;
+    height: 280px;
+    float: left;
+}
+#services li a img:hover{
+    opacity: .4;
+}
+#services li{
+    width: 225px;
+    height: 285px;
+    padding: 18px;
+    float: left;
+}   
+#news{
+    color: rgb(239, 184, 0);
+    width: 720px;
+    margin: 10% 10% 0% 7%;
+    text-align: justify;
+}
+#news dt{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+#connectyourheart img, #connectyourheart h1{
+    color: white;
+    float: left;
+    width: 620px;
+}
+#connectyourheart button{
+    padding: 5px;
+    margin-top: 28px;
+    margin-left: 40px;
+}
+#connectyourheart p{
+    color: white;
+    width: 220px;
+    margin: -15px 10px 0px 10px;
+    float: right;
+    text-align: justify;
+}
+#menu-right{
+    width: 205px;
+    float: right;    
+    padding: 0%;
+    margin: 0%;
+}
+#menu-right ul{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+#menu-right ul li{
+    background-image: url(images/bg-yellownav.png);
+    height: 40px;
+    width: 200px;
+    list-style-type: none;
+    line-height:40px;
+    margin: 10px 0px 0px 0px;
+    float: right;
+    border-radius: 25px 0px 0px 25px;
+}
+#menu-right a, #menu-right man{
+    margin: 0px 0px 0px 20px; 
+    color: black;
+    text-decoration: none;
+}
+#menu-right ul ul{
+    position: relative;
+    visibility: hidden;
+}
+#menu-right ul li:hover ul{
+    visibility: visible;
+}
+#menu-right ul li:hover{
+    text-shadow: 1px 1px 10px brown;
+}
+#findexpresscenters{
+    color: whitesmoke;
+    background-color: rgba(3, 21, 21, 0.6);
+    margin: 15px 0px 0px 0px;
+    width: 220px;
+    height: 160px;
+    float: right;
+    text-align: center;
+    border-radius: 45px 0px 0px 0px;
+}
+#findexpresscenters h1{
+    font-size: 25px;
+}
+#findexpresscenters input{
+    margin-top: 10px;
+}
